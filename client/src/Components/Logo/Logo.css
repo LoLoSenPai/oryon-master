@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* palette */
+  --main-white: #ffffff;
+  --shade-white: #f5f5f5;
+  --main-yellow: #ffefdd;
+  --main-purple: #02ffa7;
+  --main-gray: #6b6d70;
+  --main-black: #151b22;
+}
+html {
+  font-size: 62.5%;
+}
+/* 
+.logo-container {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.main-logo {
+  width: 12rem;
+  height: 100%;
+  font-size: 3.2rem;
+  color: #151b22;
+  position: relative;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.small-logo {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-logo {
+    display: none;
+  } */
+
+
+  /* .small-logo {
+    display: block;
+    width: 4.2rem;
+    height: 100%;
+    margin-left: 30px;
+    top: 0;
+    padding: 0;
+    transform: translateX(-30%) translateY(-50%);
+  } 
+}
+*/

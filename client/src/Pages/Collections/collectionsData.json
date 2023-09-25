@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Drill Club",
+    "bannerImgSrc": "./images/banner-drillclub.webp",
+    "logoImgSrc": "./images/logo-drillclub.webp",
+    "link": "/collections/drill_club",
+    "previewImgSrc": "./images/nft-drillclub.webp"
+  },
+  {
+    "title": "PolygonMonkeys",
+    "bannerImgSrc": "./images/banner-polygonmonkeys.webp",
+    "logoImgSrc": "./images/logo-polygonmonkeys.webp",
+    "link": "/collections/polygonmonkeys",
+    "previewImgSrc": "./images/nft-polygonmonkeys.webp"
+  },
+  {
+    "title": "Brozo",
+    "bannerImgSrc": "./images/banner-brozo.webp",
+    "logoImgSrc": "./images/logo-brozo.webp",
+    "link": "/collections/brozo",
+    "previewImgSrc": "./images/nft-brozo.webp"
+  },
+  {
+    "title": "The Herd",
+    "bannerImgSrc": "./images/banner-theherd.webp",
+    "logoImgSrc": "./images/logo-theherd.webp",
+    "link": "/collections/the_herd",
+    "previewImgSrc": "./images/nft-theherd.webp"
+  }
+]

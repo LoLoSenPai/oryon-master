@@ -1,0 +1,114 @@
+.btn-blur-effect {
+    position: relative;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 1px solid #303030;
+    background: #ffffff00;
+    color: #02ffa7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-blur-effect:hover {
+    box-shadow: 0 0 10px #02ffa7, 0 0 25px #001eff, 0 0 50px #02ffa7;
+    transition-delay: 0.6s;
+}
+
+.btn-blur-effect .span-blur-effect {
+    position: absolute;
+}
+
+.btn-blur-effect .span-blur-effect:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #02ffa7);
+}
+
+.btn-blur-effect:hover .span-blur-effect:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+}
+
+.btn-blur-effect .span-blur-effect:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #001eff);
+}
+
+.btn-blur-effect:hover .span-blur-effect:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+}
+
+.btn-blur-effect .span-blur-effect:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #02ffa7);
+}
+
+.btn-blur-effect:hover .span-blur-effect:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+}
+
+.btn-blur-effect .span-blur-effect:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #001eff);
+}
+
+.btn-blur-effect:hover .span-blur-effect:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+}
+
+.btn-blur-effect:active {
+    background: #ae00af;
+    background: linear-gradient(to top right, #ae00af, #001eff);
+    color: #bfbfbf;
+    box-shadow: 0 0 8px #02ffa7, 0 0 8px #001eff, 0 0 8px #02ffa7;
+    transition: 0.1s;
+}
+
+.btn-blur-effect:active .span-blur-effect:nth-child(1) 
+.span-blur-effect:nth-child(2) 
+.span-blur-effect:nth-child(2) 
+.span-blur-effect:nth-child(2) {
+    transition: none;
+    transition-delay: none;
+}
+
+.back-btn {
+    top: 0rem;
+    left: 8rem;
+    display: inline;
+}
+
+@media screen and (max-width: 980px) {
+    .back-btn {
+        left: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .back-btn {
+        top: -1rem;
+    }
+}

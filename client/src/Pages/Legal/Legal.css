@@ -1,0 +1,30 @@
+.legal-doc {
+    padding-top: 10vh;
+}
+
+.legal-bloc {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	backdrop-filter: blur(50px);
+	-webkit-backdrop-filter: blur(50px);
+    width: auto;
+    min-height: 25rem;
+    margin: 0 3rem;
+    border-radius: 20px;
+}
+
+.legal-bloc > h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin: 2rem 5%;
+}
+
+.legal-bloc > p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: justify;
+    margin: 2rem 6%;
+
+}

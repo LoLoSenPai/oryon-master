@@ -1,0 +1,94 @@
+#contact-form {
+    margin: 0 auto 4rem;
+    width: 700px;
+    padding: 2rem;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .form-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin: 0 0 0.5rem 5%;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 95%;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #495057;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    outline: none;
+    border-radius: 35px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 1rem auto;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #02ffa75e;
+  }
+  
+  .btn-form-submit {
+    color: #fff;
+    background-color: #02ffa7;
+    border-color: #513fda;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    margin: 2rem auto 0;
+  }
+  
+  .btn-form-submit:hover {
+    color: #fff;
+    background-color: #513fda;
+    border-color: #02ffa7;
+  }
+  
+  textarea.form-control {
+    resize: none;
+  }
+  
+
+
+
+@media screen and (max-width: 768px) {
+  #contact-form {
+    width: 90%;
+    max-width: auto;
+  }
+}
+  
