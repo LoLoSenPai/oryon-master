@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import imgHomeShop from '../../images/3D-Logo.webp'
+import imgHomeShop from './3D-Logo.webp'
 import bannerAd from './Soon-image.webp'
 import bannerAdMobile from './Soon-image-mobile.webp'
 import Footer from '../../Components/Footer/Footer';

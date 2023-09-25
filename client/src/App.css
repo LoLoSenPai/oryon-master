@@ -21,7 +21,7 @@ html {
 }
 
 .page-container {
-  background: url('./images/background-image.webp');
+  background: url('./background-image.webp');
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;

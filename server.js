@@ -41,7 +41,7 @@ app.get("/api/floorPrices/:contractAddress", async (req, res) => {
     const contractAddress = req.params.contractAddress;
     const response = await axios.get(`https://polygonapi.nftscan.com/api/v2/collections/${contractAddress}`, {
       headers: {
-        'X-API-KEY': 'UpHv9E2zqy9TValq6VhoRUXd'
+        'X-API-KEY': process.env.NFTSCAN_API_KEY
       }
     });
 
