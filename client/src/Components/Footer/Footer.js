@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Footer.css";
-import myLogo from "../../Images/logo.svg";
+import myLogo from "../../images/logo.svg";
 
 
 const Footer = () => {

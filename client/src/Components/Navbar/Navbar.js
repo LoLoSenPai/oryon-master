@@ -4,7 +4,7 @@ import cartIcon from "../FloatingCart/shopping-cart.svg";
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux'
 import FloatingCart from "../FloatingCart/FloatingCart";
-import myNavLogo from "../../Images/logo.svg";
+import myNavLogo from "../../images/logo.svg";
 
 export default function Navbar() {
 
