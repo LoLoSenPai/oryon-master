@@ -27,7 +27,7 @@
     "helmet": "^6.0.1",
     "http-proxy-middleware": "^2.0.6",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.9.1",
+    "mongoose": "^6.12.2",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.2",
     "stripe": "^11.11.0",
