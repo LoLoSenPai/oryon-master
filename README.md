@@ -1,1 +1,1 @@
-Live version [here](https://oryon-merch.com/)
+Live version [here](https://oryon-merch.lololabs.xyz)
